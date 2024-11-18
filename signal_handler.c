@@ -4,9 +4,9 @@
  */
 
 /**
- * Modified by:
+ * Modified by: Krueger "Mac" Williams
  * 
- * Brief summary of modifications:
+ * Brief summary of modifications: Removed exit from handle
  */
 
 
@@ -20,7 +20,7 @@
  */
 void handle_signal() {
     printf("Received a signal\n");
-    exit(1);
+    //exit(1);
 }
 
 int main() {
